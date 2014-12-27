@@ -4,8 +4,22 @@
     <next>
       <block type="oled_cleardisplay" id="10">
         <next>
-          <block type="oled_drawtext" id="19">
-            <field name="TEXT">Prutt!</field>
+          <block type="oled_setcursor" id="28" inline="true">
+            <value name="STARTX">
+              <block type="math_number" id="41">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+            <value name="STARTY">
+              <block type="math_number" id="42">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+            <next>
+              <block type="oled_drawtext" id="19">
+                <field name="TEXT">Prutt!</field>
+              </block>
+            </next>
           </block>
         </next>
       </block>
