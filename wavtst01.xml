@@ -1,5 +1,8 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="multimedia_playwav" id="1" x="17" y="-4">
     <field name="WAV">prutt2</field>
+    <next>
+      <block type="oled_cleardisplay" id="10"></block>
+    </next>
   </block>
 </xml>
